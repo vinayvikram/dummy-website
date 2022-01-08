@@ -5,6 +5,8 @@ import MainPage from "./components/MainPage";
 import QuickLinks from "./components/QuickLinks";
 import CenterCard from "./components/CenterCard";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
+import BottomBar from "./components/BottomBar";
 
 const places = ["UNITED KINGDOM", "USA", "CHINA", "INDIA"];
 const cities_dict = {
@@ -30,8 +32,8 @@ function App() {
         />
       ))}
       <ContactUs />
-      <div className="footer"> Footer </div>
-      <div className="bottom">Bottom bar</div>
+      <Footer />
+      <BottomBar />
     </div>
   );
 }
